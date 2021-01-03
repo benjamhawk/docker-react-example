@@ -1,0 +1,11 @@
+language: generic
+sudo: required
+
+services:
+  - docker
+  
+before_install:
+  - docker build -t benjamhawk/docker-react-example -f Dockerfile.dev
+
+script:
+  - docker run -e CI=true benjamhawk/docker-react-example npm run test
