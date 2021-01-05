@@ -6,15 +6,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        Hi
+        This is a change
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Change from feature branch
-        </a>
+        ></a>
       </header>
     </div>
   );
